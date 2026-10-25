@@ -1,0 +1,28 @@
+PROJECT: Parameterized Braun-Style Unsigned Multiplier — No for Loops
+DEVELOPER: Ghulam Yaseen Nangraj
+DATE: 2026-10-24
+RTL: rtl/braun_multiplier.v
+TESTBENCH: tb/tb_braun_multiplier.v
+TOOLS: Vivado 2025.2.1 / xsim
+LANGUAGE: Verilog-2001
+
+Default test configuration: WIDTH=4; 256 operand pairs.
+Iteration: nested while loops. Reference multiplication occurs in testbench.
+
+Expected success summary (must be confirmed by running simulation):
+Tests executed: 256
+Errors detected: 0
+PASS: All vectors passed.
+
+This is a report template, not evidence that simulation was run. Update it
+with actual tool version, date, log, and observed result.
+
+Synthesis record:
+Target FPGA part:
+Vivado version:
+LUT count:
+DSP count:
+Register count:
+Worst path delay:
+Warnings:
+Notes:
